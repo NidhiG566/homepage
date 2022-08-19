@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.register{
+    background:#ff9900;
+    border-radius:5px;
+    margin:0 53px 0 76px;
+    padding:7px 36px 0 36px !important;
+}
+.login{
+    background:#00e600;
+    border-radius:5px;
+    margin:0 5px 0 2px;
+    padding:7px 38px 0 38px !important;
+}
+
+.top-left {
+    position: absolute;
+    top: 150px;
+    left: 52px;
+    width:50%;
+  }
+  .mid-section {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .getbtn{
+    background-color: brown;border-radius: 13px;
+    color:white;
+    font-size:28px;
+    height:57px;
+    width:148px;
+    margin-top:10px;
+    padding-top: 2px;
+  }
+  .cont{
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 16px 0;
+    height: 150px;
+  }
+  .cont::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .cont img {
+    /* float: left; */
+    border-radius: 50%;
+  }
+  /*testimonial*/
+  .home-testimonial-bottom{
+    /* background-color: #f8f8f8;
+    transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: auto;
+    top: 190px
+  }
+  .home-testimonial h3{
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    -transform: uppercase
+  }
+  .home-testimonial h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 700
+  }
+  .testimonial-inner{
+    position: relative;
+    top: -174px
+  }
+  .testimonial-pos{
+    position: relative;
+    top: 24px
+  }
+  .testimonial-inner .tour-desc{
+    border-radius: 5px;
+    padding: 9px
+  }
+  .color-grey-3{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+  }
+  .testimonial-inner img.tm-people{
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;-o-object-fit: cover;object-fit: cover;max-width: none
+  }
+  .link-name{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+  }
+  .link-position{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #6c83a2
+  }
